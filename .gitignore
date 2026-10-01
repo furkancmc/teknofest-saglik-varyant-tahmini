@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+catboost_info/
+
+# Yarışma verisi paylaşılmaz
+EĞİTİM (TRAIN) SETLERİ/
+data/
+*.csv
+!docs/**/*.csv
+
+# Üretilen çıktılar (kod çalıştırıldığında yeniden oluşur)
+outputs/
+
+# Proje raporu
+saglik.pdf
